@@ -32,7 +32,7 @@
         console.log("共" + (parseInt(page) + 1) + "页")
         for (p = 1; p < (parseInt(page) + 1); p++) {
             console.log('第' + p + '页')
-            await sleep(1000)
+            await sleep(5000)
             await getid(p)
         }
     }
